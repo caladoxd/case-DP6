@@ -12,7 +12,7 @@ window.onload=function(){pageView()} //conta visualização
 
 
 //index.html:
-if(window.location.pathname=="/"){
+if(window.location.pathname=="/case-DP6/"){
     document.getElementsByClassName("menu-lista-link menu-lista-contato")[0].onclick = function(){
         send ('entre_em_contato',{
             event_category: 'menu',
@@ -29,7 +29,7 @@ if(window.location.pathname=="/"){
 }
 
 //analise.html:
-if(window.location.pathname=="/analise"){
+if(window.location.pathname=="/case-DP6/analise"){
     var cards = document.getElementsByClassName('card card-montadoras')
     Array.prototype.forEach.call(cards, element => {    
         element.onclick = function(){
@@ -43,7 +43,7 @@ if(window.location.pathname=="/analise"){
 
 
 //sobre.html:
-if(window.location.pathname=="/sobre"){
+if(window.location.pathname=="/case-DP6/sobre"){
     var inputs = document.getElementsByClassName('contato')[0].getElementsByTagName('input')
     Array.prototype.forEach.call(inputs, input => {    
         input.onchange = function(){
